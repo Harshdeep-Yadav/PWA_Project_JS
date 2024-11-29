@@ -18,9 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#000000" />
       </head>
       <body>
-        {/* <div style={{ display: 'flex', height: '97.7dvh' }}> */}
           {children}
-        {/* </div> */}
 
       </body>
     </html>
